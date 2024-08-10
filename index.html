@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String to Array</title>
+</head>
+<body>
+    <script>
+        var university = "University of Karachi";
+
+        var array = university.split("");
+
+        array.forEach(function(character) {
+           
+            var p = document.createElement('p');
+            p.textContent = character; 
+            document.body.appendChild(p);
+        });
+    </script>
+</body>
+</html>
